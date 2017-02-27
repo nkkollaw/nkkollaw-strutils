@@ -1,0 +1,18 @@
+{
+    "name": "nkkollaw/str-utils",
+    "description": "String utilities",
+	"version": "1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niccolò Brogi",
+            "email": "me@nbrogi.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "" : "src/"
+        }
+    },
+    "require": {}
+}
