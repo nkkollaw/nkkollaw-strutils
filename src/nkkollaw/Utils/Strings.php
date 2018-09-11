@@ -1,5 +1,5 @@
 <?php
-namespace nkkollaw\Utils\Strings;
+namespace nkkollaw\Utils;
 
 class Strings {
     /**
