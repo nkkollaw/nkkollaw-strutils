@@ -71,7 +71,7 @@ class Strings {
     * @param string $str String in camel case format
     * @return string $str String converted into snake case
     */
-    function camelToSnake($str) {
+    public static function camelToSnake($str) {
         $str = preg_replace('/[A-Z]/', '_$0', $str);
         $str = preg_replace('/(\d+)/', '_$1', $str);
         $str= ltrim ($str, '_'); // fix for first char ending up being an underscore
